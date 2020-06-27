@@ -1,0 +1,189 @@
+
+/* Global CSS */
+
+.button {
+  font: bold 14px tahoma;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.globalStyle{
+    font-size: 8.25pt;
+    font-family: segoe, tahoma, 'trebuchet ms', arial;
+    margin: 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+.globalStyleDark{
+    font-size: 8.25pt;
+    font-family: segoe, tahoma, 'trebuchet ms', arial;
+    background: #36393f;
+    color: white;
+}
+
+.box{
+    border: 1px solid grey;
+    }
+
+.boxDark{
+   border: 1px solid grey;
+   background: #515761; 
+}
+
+.textInput{
+     width: 100%; 
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+}
+
+/*input[type="text"] {
+     width: 100%; 
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+}*/
+
+/* Page-wide table CSS */
+
+.contentTable{
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    border-collapse: separate;
+    empty-cells: hide;
+    page-break-inside: avoid;
+    width: 100%;
+}
+
+.block{
+    padding-bottom: 0px;
+    page-break-inside: avoid;
+    margin: 1em 0 0 0;
+    line-height: 12pt;
+}
+
+/* Small, misc CSS */
+
+.upper{
+    text-transform: uppercase;
+    width: 16.66%;
+    text-align: left;
+}
+
+.upperFirst{
+    text-transform: uppercase;
+    width: 16.67%;
+    text-align: left;
+}
+
+.title{
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 16.66%;
+    text-align: left;
+}
+
+.titleFirst{
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 16.67%;
+    text-align: left;
+}
+
+.blockName{
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    font-variant: small-caps;
+    font-size: 10pt;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Block-specific CSS */
+
+    /* Alias */
+
+.alias{
+    width: 100%;
+    text-align: center;
+    vertical-align: central;
+    border-bottom: thick solid #1c4a2d;
+    margin: 0;
+    padding-top: 0.9em;
+    padding-bottom: 0.1em;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 17pt;
+    letter-spacing: 0.05em;
+    text-shadow: 0 0 0.05em #fffff, 0 0 0.1em #1c4a2d;
+}
+
+.aliasDark{
+    width: 100%;
+    text-align: center;
+    vertical-align: central;
+    border-bottom: thick solid #7ece9b;
+    margin: 0;
+    padding-top: 0.9em;
+    padding-bottom: 0.1em;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 17pt;
+    letter-spacing: 0.05em;
+    text-shadow: 0 0 0.05em #fffff, 0 0 0.1em #1c4a2d;
+}
+
+    /* Basic Info */
+
+.basicInfoTable{
+    border-collapse: collapse;
+    border-color: #1c4a2d;
+    border-style: solid;
+    border-width: 0.5mm;
+    padding: 2px;
+    border-spacing: 5px;
+    width: 100%;
+    max-width: 100%;
+}
+
+    /* Attributes */
+
+.attributesTable{
+    border-collapse: separate;
+    border-color: #1c4a2d;
+    border-style: solid;
+    border-width: 0.5mm;
+    padding: 2px;
+    border-spacing: 5px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.attributeTitle{
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.attributeCell{
+    padding: 0.25em;
+    margin: 0.25em;
+    border: solid 0.0625em #1c4a2d;
+    text-transform: uppercase;
+    width: 20%;
+}
+
+.inputNumber{
+    float: right;
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sheet Viewer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styleSheetSimpleCreator.css" />
+    </head>
+    <body class="globalStyle">
+        <a href="../index.html" class="button">Back</a>
+        
+        <div class="alias">
+            Character Alias
+        </div>
+        <table class="contentTable">
+            <tbody>
+                <tr>
+                    <td id="basicInformationBlock">
+                        <div class="block">
+                            <table class="basicInfoTable">
+                                <tbody>
+                                    <tr>
+                                        <th colspan="6" class="blockName">Basic Information</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="titleFirst">Name:</td>
+                                        <td colspan="2"><input type="text" id="characterName"></td>
+                                        <td class="upper">Player:</td>
+                                        <td colspan="2"><input type="text" id="playerName"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="upperFirst">Metatype:</td>
+                                        <td><input type="text" id="metatype"></td>
+                                        <td class="upper">Metavariant:</td>
+                                        <td><input type="text" id="metavariant"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="upperFirst">Nuyen:</td>
+                                        <td><input type="text" id="nuyen"></td>
+                                        <td class="upper">Karma:</td>
+                                        <td><input type="text" id="karma"></td>
+                                        <td class="upper">Carrer Karma:</td>
+                                        <td><input type="text" id="carrerKarma"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="attributesBlock">
+                        <div class="block">
+                            <table class="attributesTable">
+                                <tbody>
+                                    <tr>
+                                        <th colspan="8" class="blockName">Attributes</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="attributeTitle" colspan="2"><div>Physical Attributes</div></td>
+                                        <td class="attributeTitle" colspan="2"><div>Mental Attributes</div></td>
+                                        <td class="attributeTitle" colspan="2"><div>Special Attributes</div></td>
+                                        <td class="attributeTitle" colspan="2"><div>Initiative</div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="attributeCell"><div>Body:</div></td>
+                                        <td><input type="text" id="attBod"></td>
+                                        <td class="attributeCell"><div>Charisma:</div></td>
+                                        <td><input type="text" id="attCha"></td>
+                                        <td class="attributeCell"><div>Edge:</div></td>
+                                        <td><input type="text" id="attEdg"></td>
+                                        <td class="attributeCell"><div>Initiative:</div></td>
+                                        <td><input type="text" id="Init"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="attributeCell"><div>Agility:</div></td>
+                                        <td><input type="text" id="attAgi"></td>
+                                        <td class="attributeCell"><div>Intuition:</div></td>
+                                        <td><input type="text" id="attInt"></td>
+                                        <td class="attributeCell"><div>Current Edge:</div></td>
+                                        <td><input type="text" id="currentEdge"></td>
+                                        <td class="attributeCell"><div>Astral Initiative:</div></td>
+                                        <td><input type="text" id="astInit"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="attributeCell"><div>Reaction:</div></td>
+                                        <td><input type="text" id="attRea"></td>
+                                        <td class="attributeCell"><div>Logic:</div></td>
+                                        <td><input type="text" id="attLog"></td>
+                                        <td class="attributeCell"><div>Essence:</div></td>
+                                        <td><input type="text" id="attEss"></td>
+                                        <td class="attributeCell"><div>Rigger Initiative:</div></td>
+                                        <td><input type="text" id="rigInit"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="attributeCell"><div>Strength:</div></td>
+                                        <td><input type="text" id="attStr"></td>
+                                        <td class="attributeCell"><div>Willpower:</div></td>
+                                        <td><input type="text" id="attWil"></td>
+                                        <td class="attributeCell"><div>Mag / Res / Dep: </div></td>
+                                        <td><input type="text" id="attSpecial"></td>
+                                        <td class="attributeCell" rowspan="2" colspan="2">
+                                            <div>Matrix AR:</div><input class="inputNumber" type="number" min="1" id="matARInit">
+                                            <div>Matrix Cold:</div><input class="inputNumber" type="number" min="1" id="matARInit">
+                                            <div>Matrix Hot:</div><input class="inputNumber" type="number" min="1" id="matARInit">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="attributeCell" colspan="6"><div>Current Form:</div></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="placeholder">
+                        <div class="block">
+                            <table class="tableStyle">
+                                <tbody>
+                                    <tr>
+                                        <td class="upper">Age:</td>
+                                        <td><input type="text" id="age"></td>
+                                        <td class="upperFirst">Gender:</td>
+                                        <td><input type="text" id="gender"></td>
+                                        <td class="upper">Height:</td>
+                                        <td><input type="text" id="height"></td>
+                                        <td class="upper">Weight:</td>
+                                        <td><input type="text" id="weight"></td>
+                                        <td class="upperFirst">Hair:</td>
+                                        <td><input type="text" id="hair"></td>
+                                        <td class="upper">Eyes:</td>
+                                        <td><input type="text" id="eyes"></td>
+                                        <td class="upper">Skin:</td>
+                                        <td><input type="text" id="skin"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="upperFirst">Street Cred:</td>
+                                        <td><input type="text" id="streetCred"></td>
+                                        <td class="upper">Notoriety:</td>
+                                        <td><input type="text" id="notoriety"></td>
+                                        <td class="upper">Public Awareness:</td>
+                                        <td><input type="text" id="publicAwareness"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="upperFirst">Composure:</td>
+                                        <td><input type="text" id="composure"></td>
+                                        <td class="upper">Judge Intentions:</td>
+                                        <td><input type="text" id="judgeIntentions"></td>
+                                        <td class="upper">Memory:</td>
+                                        <td><input type="text" id="memory"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="upperFirst">Lift/Carry:</td>
+                                        <td><input type="text" id="lcRating"></td>
+                                        <td class="upper">Lift/Carry Weight:</td>
+                                        <td><input type="text" id="lcWeight"></td>
+                                        <td class="upper">Primary Arm:</td>
+                                        <td><input type="text" id="primaryArm"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="upperFirst">Movement:</td>
+                                        <td><input type="text" id="movement"></td>
+                                        <td class="upper">Swim:</td>
+                                        <td><input type="text" id="swim"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        

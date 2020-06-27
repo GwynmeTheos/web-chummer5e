@@ -1,0 +1,39 @@
+.button {
+  font: bold 14px tahoma;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.globalStyle{
+    font-size: 8.25pt;
+    font-family: segoe, tahoma, 'trebuchet ms', arial;
+}
+
+.box{
+    border: 1px solid black;
+}
+
+.content{
+    margin-left: 5px;
+}
+
+.alias{
+    width: 100%;
+    text-align: center;
+    vertical-align: central;
+    border-bottom: thick solid #1c4a2d;
+    margin: 0;
+    padding-top: 0.9em;
+    padding-bottom: 0.1em;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 17pt;
+    letter-spacing: 0.05em;
+    text-shadow: 0 0 0.05em #fffff, 0 0 0.1em #1c4a2d;
+}
